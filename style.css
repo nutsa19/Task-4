@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "alk";
+  src: url(assets/alk_life.otf);
+}
+
+@font-face {
+  font-family: "dejavu";
+  src: url(assets/bpg_dejavu_sans.ttf);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #d9d9d9;
+}
+
+nav ul {
+  display: flex;
+  font-family: alk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav .active {
+  color: #a62b28;
+}
+
+nav .middle {
+  margin: 0px 38px;
+}
+
+nav .last {
+  margin-right: 130px;
+}
+
+header .logo {
+  padding: 50px 0px 50px 130px;
+}
+
+.main-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 607px;
+  background-color: #fff;
+}
+
+.back-pic {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding: 30px 30.034px 30px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #a62b28;
+}
+
+.pic-title {
+  display: flex;
+  align-items: center;
+  margin-top: 160px;
+  margin-left: 130px;
+}
+
+.pic-title h1 {
+  margin-left: 40px;
+  color: #717276;
+  font-family: dejavu;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 130px 160px 130px;
+  flex-direction: row;
+}
+
+.books h1 {
+  color: #717276;
+  font-family: DejaVu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.books h2 {
+  color: #000;
+  font-family: ALK;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 8px 0px;
+}
+
+.books span {
+  color: #000;
+  font-family: DejaVu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.books img {
+  width: 380px;
+  height: 512px;
+  flex-shrink: 0;
+}
+
+.books .middle-pic {
+  margin-top: 30px;
+}
+
+.below {
+  margin-top: 160px;
+}
+
+.authors-pics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 130px 160px 130px;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 106px;
+  padding: 71px 130px;
+  background-color: #d9d9d9;
+}
+
+footer a {
+  color: #000;
+  font-family: ALK;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer .middle-link {
+  margin: 8px 0px;
+}
+
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .icons {
+  margin-left: 20px;
+}
